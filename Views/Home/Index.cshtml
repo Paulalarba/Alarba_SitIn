@@ -1,3 +1,186 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CCS SIT-IN | Modern Lab Monitoring</title>
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+
+    <div class="d-flex flex-column min-vh-100">
+
+
+        <main class="flex-grow-1 hero-gradient">
+            <div class="container-xl px-4 px-md-5 py-5 py-lg-5">
+                <div class="row align-items-center g-5">
+
+                    <!-- Left Content -->
+                    <div class="col-12 col-lg-6">
+                        <div class="d-flex flex-column gap-4">
+
+                            <!-- Badge -->
+                            <div>
+                                <span class="badge-smart">
+                                    <span class="material-symbols-outlined" style="font-size: 0.875rem;">verified</span>
+                                    SMART LAB MANAGEMENT 2.0
+                                </span>
+                            </div>
+
+                            <!-- Headline -->
+                            <h1 class="hero-headline">
+                                Smart Sit-In Monitoring for Computer Labs
+                            </h1>
+
+                            <!-- Sub-text -->
+                            <p class="hero-sub">
+                                Track student laboratory access, manage room capacity, and streamline sit-in registration in real time.
+                            </p>
+
+                            <!-- CTA Buttons -->
+                            <div class="d-flex flex-column flex-sm-row gap-3 mt-3">
+                                <button class="btn-primary-custom">
+                                    Register Sit-In
+                                    <span class="material-symbols-outlined" style="font-size: 1.125rem;">arrow_forward</span>
+                                </button>
+                                <button class="btn-secondary-custom">
+                                    View Lab Availability
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Right Visual Mockup -->
+                    <div class="col-12 col-lg-6 d-flex justify-content-center">
+                        <div class="phone-wrapper">
+
+                            <div class="blob-1"></div>
+                            <div class="blob-2"></div>
+
+                            <!-- Phone shell -->
+                            <div class="phone-shell">
+                                <div class="phone-inner">
+
+                                    <!-- Status Bar -->
+                                    <div class="phone-statusbar">
+                                        <span style="font-size: 0.625rem; font-weight: 700;">9:41</span>
+                                        <div class="d-flex gap-1">
+                                            <span class="material-symbols-outlined" style="font-size: 0.75rem;">signal_cellular_4_bar</span>
+                                            <span class="material-symbols-outlined" style="font-size: 0.75rem;">wifi</span>
+                                            <span class="material-symbols-outlined" style="font-size: 0.75rem;">battery_full</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- App Content -->
+                                    <div class="phone-content">
+
+                                        <!-- Student Profile -->
+                                        <div class="d-flex align-items-center gap-2">
+                                            <div class="phone-avatar"></div>
+                                            <div>
+                                                <p style="font-size: 0.625rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin: 0;">Student Profile</p>
+                                                <h3 style="font-size: 0.875rem; font-weight: 700; color: var(--accent-dark); margin: 0;">Alex Rivera</h3>
+                                            </div>
+                                        </div>
+
+                                        <!-- Status Card -->
+                                        <div class="checkin-card">
+                                            <p style="font-size: 0.75rem; font-weight: 600; color: rgba(15,35,35,0.7); margin-bottom: 0.25rem;">Current Status</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span style="font-size: 1.125rem; font-weight: 900; color: var(--accent-dark);">Checked-in</span>
+                                                <div class="pulse-dot"></div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Info Rows -->
+                                        <div class="d-flex flex-column gap-2">
+                                            <div class="info-row">
+                                                <span style="font-size: 0.75rem; font-weight: 500; color: #64748b;">Laboratory</span>
+                                                <span style="font-size: 0.75rem; font-weight: 700; color: var(--accent-dark);">Room 301</span>
+                                            </div>
+                                            <div class="info-row">
+                                                <span style="font-size: 0.75rem; font-weight: 500; color: #64748b;">Seat Number</span>
+                                                <span style="font-size: 0.75rem; font-weight: 700; color: var(--accent-dark);">B-12</span>
+                                            </div>
+                                            <div class="info-row">
+                                                <span style="font-size: 0.75rem; font-weight: 500; color: #64748b;">Time Elapsed</span>
+                                                <span style="font-size: 0.75rem; font-weight: 700; color: var(--accent-dark);">01:14:22</span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Checkout Button -->
+                                        <button class="btn-checkout">Checkout</button>
+
+                                    </div><!-- /phone-content -->
+                                </div><!-- /phone-inner -->
+                            </div><!-- /phone-shell -->
+                            <!-- Floating Card: Room Slots -->
+                            <div class="float-card glass-card" style="left: -3rem; top: 5rem;">
+                                <div class="float-icon-box" style="background-color: var(--primary);">
+                                    <span class="material-symbols-outlined" style="font-size: 0.875rem; color: var(--accent-dark);">meeting_room</span>
+                                </div>
+                                <p class="float-label">Room 301</p>
+                                <p class="float-value">12 Slots Available</p>
+                            </div>
+
+                            <!-- Floating Card: Students Today -->
+                            <div class="float-card glass-card" style="right: -4rem; bottom: 8rem;">
+                                <div class="float-icon-box" style="background-color: var(--accent-dark);">
+                                    <span class="material-symbols-outlined" style="font-size: 0.875rem; color: var(--primary);">groups</span>
+                                </div>
+                                <p class="float-label">Today</p>
+                                <p class="float-value">146 Students</p>
+                            </div>
+
+                            <!-- Floating Card: Avg Stay -->
+                            <div class="float-card glass-card" style="left: -2.5rem; bottom: 2.5rem;">
+                                <div class="float-icon-box" style="background-color: rgba(59,130,246,0.1);">
+                                    <span class="material-symbols-outlined" style="font-size: 0.875rem; color: #2563eb;">schedule</span>
+                                </div>
+                                <p class="float-label">Avg Stay</p>
+                                <p class="float-value">1h 42m</p>
+                            </div>
+
+                        </div><!-- /phone-wrapper -->
+                    </div><!-- /col -->
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </main>
+
+        <!-- ─────────────────────────────────────────────
+             Footer – Trusted By
+             ───────────────────────────────────────────── -->
+        <footer class="mt-auto py-5 footer-trusted">
+            <div class="container-xl px-4 px-md-5">
+                <div class="d-flex flex-column align-items-center gap-4">
+
+                    <p class="trusted-label mb-0">Trusted by leading institutions</p>
+
+                    <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 gap-md-5">
+                        <span class="brand-logo" style="font-style: italic; letter-spacing: -0.05em;">NORD</span>
+                        <span class="brand-logo" style="letter-spacing: 0.3em;">LUSH</span>
+                        <span class="brand-logo d-flex align-items-center gap-1">
+                            <span class="material-symbols-outlined">stars</span>PRIZEPICKS
+                        </span>
+                        <span class="brand-logo" style="font-weight: 800; text-transform: lowercase;">vortex.</span>
+                        <span class="brand-logo" style="font-weight: 300; letter-spacing: 0.25em;">Aura</span>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div><!-- /wrapper -->
+    <!-- Bootstrap 5.3 JS Bundle (Popper included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!-- ─────────────────────────────────────────────
+     Top Navigation
+     ───────────────────────────────────────────── -->
+<nav class="navbar px-4 px-md-5 py-4">
+    <div class="container-xl d-flex align-items-center justify-content-between w-100">
+
+        <!-- Brand -->
+        <div class="d-flex align-items-center gap-2">
+            <div class="nav-logo-box">
+                <span class="material-symbols-outlined text-warning" style="color: var(--primary) !important; font-size: 1.5rem;">monitoring</span>
+            </div>
+            <span class="nav-brand-name">CCS SIT-IN</span>
+        </div>
+
+        <!-- Nav links (hidden on small screens) -->
+        <div class="d-none d-md-flex align-items-center gap-4">
+            <a class="nav-link-custom" href="#">Home</a>
+            <a class="nav-link-custom" href="#">Community</a>
+            <a class="nav-link-custom" href="#">About</a>
+        </div>
+
+        <!-- Auth buttons -->
+        <div class="d-flex align-items-center gap-3">
+            <!-- Login Action -->
+            <a asp-controller="Account"
+               asp-action="Login"
+               style="color: var(--accent-dark); font-size: 0.875rem; font-weight: 700; text-decoration: none;">
+                Log In
+            </a>
+
+            <!-- Register Action -->
+            <a asp-controller="Account"
+               asp-action="Register"
+               class="btn-register-nav"
+               style="text-decoration: none;">
+                Register
+            </a>
+        </div>
+
+
+    </div>
+</nav>

@@ -1,0 +1,286 @@
+﻿/* ── Design Tokens ── */
+:root {
+    --primary: #d4ff5d; /* Lime accent */
+    --primary-soft: #c8ff4a;
+    --accent-dark: #0f2323; /* Main dark */
+    --accent-dark-soft: #1e3a3a;
+    --background-light: #fdfdf3;
+    --border-soft: rgba(15, 35, 35, 0.12);
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+}
+
+/* ── Base ── */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-light);
+    color: var(--text-main);
+    min-height: max(884px, 100dvh);
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Header / Navbar ── */
+.site-header {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 127, 128, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.header-inner {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon-box {
+    background-color: var(--charcoal);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-name {
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.03em;
+    color: #0f172a;
+    text-transform: uppercase;
+}
+
+.nav-link-custom {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #475569;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+    .nav-link-custom:hover {
+        color: var(--primary);
+    }
+
+.btn-login-nav {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #0f172a;
+    text-decoration: none;
+    padding: 0 1rem;
+    transition: color 0.15s;
+}
+
+    .btn-login-nav:hover {
+        color: var(--primary);
+    }
+
+.btn-register-nav {
+    background-color: var(--charcoal);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    transition: background-color 0.15s;
+}
+
+    .btn-register-nav:hover {
+        background-color: #1e293b;
+        color: #fff;
+    }
+
+/* ── Login Card ── */
+.login-card {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    background: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 20px 60px rgba(15, 35, 35, 0.1);
+    overflow: hidden;
+    margin: auto;
+    border: 1px solid var(--border-soft);
+}
+
+/* ── Card header ── */
+.card-header-section {
+    padding: 2rem 2rem 1rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    color: var(--accent-dark);
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+/* ── Form ── */
+.login-form {
+    padding: 1rem 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.form-label-custom {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #334155;
+    margin-left: 0.25rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* ── Inputs ── */
+.input-field {
+    width: 100%;
+    height: 3.5rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    color: #0f172a;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    transition: box-shadow 0.15s, border-color 0.15s;
+    outline: none;
+}
+
+    .input-field::placeholder {
+        color: #94a3b8;
+    }
+
+    .input-field:focus {
+        border-color: rgba(0, 127, 128, 0.5);
+        box-shadow: 0 0 0 3px rgba(0, 127, 128, 0.15);
+    }
+
+/* Password has extra right padding for the toggle button */
+.input-field-pr {
+    padding-right: 3rem;
+}
+
+/* ── Input icon (left) ── */
+.input-icon-left {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    font-size: 1.25rem;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* ── Visibility toggle (right) ── */
+.input-icon-right {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1.25rem;
+    transition: color 0.15s;
+}
+
+    .input-icon-right:hover {
+        color: var(--primary);
+    }
+
+/* ── Forgot password link ── */
+.link-primary {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+    .link-primary:hover {
+        text-decoration: underline;
+        color: var(--primary);
+    }
+
+/* ── Sign-in button ── */
+.btn-signin {
+    width: 100%;
+    background-color: var(--charcoal);
+    color: #1e293b;
+    font-weight: 700;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    transition: background-color 0.15s, transform 0.1s;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+    .btn-signin:hover {
+        background-color: #1e293b;
+        color: #fff;
+    }
+
+    .btn-signin:active {
+        transform: scale(0.98);
+    }
+
+/* ── Decorative blobs (inside card, absolute) ── */
+.blob-br {
+    position: absolute;
+    bottom: -6rem;
+    right: -6rem;
+    width: 12rem;
+    height: 12rem;
+    background-color: rgba(0, 127, 128, 0.05);
+    border-radius: 9999px;
+    filter: blur(48px);
+    pointer-events: none;
+}
+
+.blob-tl {
+    position: absolute;
+    top: -6rem;
+    left: -6rem;
+    width: 12rem;
+    height: 12rem;
+    background-color: rgba(0, 127, 128, 0.05);
+    border-radius: 9999px;
+    filter: blur(48px);
+    pointer-events: none;
+}
+
+/* ── Material Symbols helper ── */
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    line-height: 1;
+    vertical-align: middle;
+    user-select: none;
+}

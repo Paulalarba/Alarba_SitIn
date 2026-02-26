@@ -10,5 +10,13 @@ namespace ALARBA_SETIN_SYSTEM.Controllers
         {
             return View();
         }
+        public IActionResult Community()
+        {
+            return View();
+        }
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }

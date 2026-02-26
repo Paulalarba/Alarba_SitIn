@@ -1,12 +1,239 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C#\\3RD YEAR PROJECTS\\ALARBA_SETIN_SYSTEM\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|d:\\c#\\3rd year projects\\alarba_setin\\views\\home\\community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BBA604E-3CCB-EFD1-AA73-3EACDF44A98B}|ALARBA_SETIN_SYSTEM.csproj|solutionrelative:views\\home\\community.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Header.cshtml",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T18:27:10.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.css",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\wwwroot\\css\\Register.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Register.css",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\wwwroot\\css\\Register.css",
+              "RelativeToolTip": "wwwroot\\css\\Register.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-26T18:19:26.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\login.css",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-26T17:42:09.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-26T17:00:01.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T16:31:54.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T16:31:44.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T16:30:59.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T12:51:51.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T12:51:04.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T12:49:33.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T12:48:15.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Community.cshtml",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Home\\Community.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Community.cshtml",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Views\\Home\\Community.cshtml",
+              "RelativeToolTip": "Views\\Home\\Community.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T12:47:32.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C#\\3RD YEAR PROJECTS\\Alarba_SetIn\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T12:45:08.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,229 @@
+﻿:root {
+    --primary: #d4ff5d;
+    --accent-lime: #c8ff4a;
+    --background-light: #fdfdf3;
+    --background-dark: #0f2323;
+    --accent-dark: #0f2323;
+}
+
+/* ── Base ── */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-light);
+    color: #0f172a;
+    min-height: 100vh;
+}
+
+/* ════════════════════════════════════════════
+             HEADER — matches homepage Bootstrap style
+          ════════════════════════════════════════════ */
+.site-header {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(15, 35, 35, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.header-inner {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo icon box — accent-dark bg, lime icon (homepage style) */
+.nav-logo-box {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--accent-dark);
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.nav-brand-name {
+    color: var(--accent-dark);
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.nav-link-custom {
+    color: rgba(15, 35, 35, 0.7);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+    .nav-link-custom:hover {
+        color: var(--accent-dark);
+    }
+
+.btn-login-nav {
+    color: var(--accent-dark);
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 1rem;
+    transition: color 0.15s;
+}
+
+    .btn-login-nav:hover {
+        color: var(--primary);
+    }
+
+/* Register button — accent-dark pill (homepage style) */
+.btn-register-nav {
+    background-color: var(--accent-dark);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.875rem;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(15, 35, 35, 0.05);
+    text-decoration: none;
+    transition: background-color 0.15s;
+}
+
+    .btn-register-nav:hover {
+        background-color: #1e3a3a;
+        color: #fff;
+    }
+
+/* ════════════════════════════════════════════
+             MAIN / FORM CARD
+          ════════════════════════════════════════════ */
+.register-card {
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 127, 128, 0.05);
+    padding: 3rem;
+}
+
+@media (max-width: 576px) {
+    .register-card {
+        padding: 2rem 1.5rem;
+    }
+}
+
+.card-title {
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    color: #0f172a;
+    margin-bottom: 0.75rem;
+}
+
+.card-subtitle {
+    font-size: 1.125rem;
+    color: #64748b;
+}
+
+/* ── Form label ── */
+.form-label-custom {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #334155;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* ── Pill input / select ── */
+.input-pill {
+    width: 100%;
+    height: 3.5rem;
+    padding: 0 1.5rem;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 9999px;
+    color: #0f172a;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    transition: box-shadow 0.15s, border-color 0.15s;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+    .input-pill::placeholder {
+        color: #94a3b8;
+    }
+
+    .input-pill:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px rgba(0, 127, 128, 0.15);
+    }
+
+/* Select wrapper — custom chevron since appearance:none removes it */
+.select-wrapper {
+    position: relative;
+}
+
+    .select-wrapper::after {
+        content: 'expand_more';
+        font-family: 'Material Symbols Outlined';
+        font-size: 1.25rem;
+        color: #94a3b8;
+        position: absolute;
+        right: 1.25rem;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+/* ── Register button ── */
+.btn-register-submit {
+    width: 100%;
+    height: 3.5rem;
+    background-color: var(--accent-lime);
+    color: #0f172a;
+    font-weight: 900;
+    font-size: 1rem;
+    border: none;
+    border-radius: 9999px;
+    box-shadow: 0 8px 20px rgba(200, 255, 74, 0.25);
+    transition: filter 0.15s, transform 0.1s;
+    font-family: 'Inter', sans-serif;
+}
+
+    .btn-register-submit:hover {
+        filter: brightness(1.05);
+        color: #0f172a;
+    }
+
+    .btn-register-submit:active {
+        transform: scale(0.98);
+    }
+
+/* ── Accent link ── */
+.link-primary {
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: none;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+    .link-primary:hover {
+        text-decoration: underline;
+        color: var(--primary);
+    }
+
+/* ── Material Symbols helper ── */
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    line-height: 1;
+    vertical-align: middle;
+    user-select: none;
+}

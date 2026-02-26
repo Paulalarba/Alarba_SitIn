@@ -8,35 +8,13 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-<body class="d-flex flex-column min-vh-100 bg-dark-theme">
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark glass-nav mb-3">
-            <div class="container">
-                <a class="navbar-brand fw-bold text-gradient" asp-area="" asp-controller="Home" asp-action="Index">CCS SIT-IN</a>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item ms-sm-3"><a class="btn btn-outline-info btn-sm px-4" href="#">Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main role="main" class="flex-grow-1 d-flex align-items-center">
-        <div class="container">
+<body>
+    <partial name="_Header" />
+    <main>
+        <div>
             @RenderBody()
         </div>
     </main>
-
-    <footer class="footer py-3 text-center text-muted">
-        <div class="container">
-            &copy; 2026 - College of Computer Studies - <span class="text-info">Innovatio et Muneris</span>
-        </div>
-    </footer>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
