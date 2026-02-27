@@ -69,9 +69,9 @@ body {
     }
 
 .btn-login-nav {
+    color: var(--accent-dark);
     font-size: 0.875rem;
     font-weight: 700;
-    color: #0f172a;
     text-decoration: none;
     padding: 0 1rem;
     transition: color 0.15s;
@@ -81,19 +81,21 @@ body {
         color: var(--primary);
     }
 
+/* Register button — accent-dark pill (homepage style) */
 .btn-register-nav {
-    background-color: var(--charcoal);
+    background-color: var(--accent-dark);
     color: #fff;
-    font-size: 0.875rem;
     font-weight: 700;
-    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    padding: 0.75rem 2rem;
     border-radius: 9999px;
+    border: 1px solid rgba(15, 35, 35, 0.05);
     text-decoration: none;
     transition: background-color 0.15s;
 }
 
     .btn-register-nav:hover {
-        background-color: #1e293b;
+        background-color: #1e3a3a;
         color: #fff;
     }
 

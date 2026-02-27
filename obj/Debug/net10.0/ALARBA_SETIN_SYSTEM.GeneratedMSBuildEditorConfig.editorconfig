@@ -19,61 +19,65 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = ALARBA_SETIN_SYSTEM
 build_property.RootNamespace = ALARBA_SETIN_SYSTEM
-build_property.ProjectDir = D:\C#\3RD YEAR PROJECTS\Alarba_SetIn\
+build_property.ProjectDir = Z:\TT501\ALARBAPA\Alarba_SetIn\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\C#\3RD YEAR PROJECTS\Alarba_SetIn
+build_property.MSBuildProjectDirectory = Z:\TT501\ALARBAPA\Alarba_SetIn
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Account/Index.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Account/Login.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Account/Register.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Home/About.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Home/Community.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Home/Community.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21tdW5pdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Home/Index.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Shared/Error.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Shared/_Header.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Shared/_footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9mb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/_ViewImports.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/_ViewStart.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/3RD YEAR PROJECTS/Alarba_SetIn/Views/Shared/_Layout.cshtml]
+[Z:/TT501/ALARBAPA/Alarba_SetIn/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-emwz8b9usf
