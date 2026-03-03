@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ALARBA_SETIN_SYSTEM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcddcc6447e7b92d2331a0e79b12b4c6dd7d06bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+309d3d9ed55886029311ff8196dae07edbff9033")]
 [assembly: System.Reflection.AssemblyProductAttribute("ALARBA_SETIN_SYSTEM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ALARBA_SETIN_SYSTEM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

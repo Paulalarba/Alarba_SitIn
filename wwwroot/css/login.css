@@ -1,13 +1,10 @@
 ﻿/* ── Design Tokens ── */
 :root {
-    --primary: #d4ff5d; /* Lime accent */
-    --primary-soft: #c8ff4a;
-    --accent-dark: #0f2323; /* Main dark */
-    --accent-dark-soft: #1e3a3a;
+    --primary: #d4ff5d;
+    --accent-lime: #c8ff4a;
     --background-light: #fdfdf3;
-    --border-soft: rgba(15, 35, 35, 0.12);
-    --text-main: #0f172a;
-    --text-muted: #64748b;
+    --background-dark: #0f2323;
+    --accent-dark: #0f2323;
 }
 
 /* ── Base ── */
@@ -225,31 +222,30 @@ body {
     }
 
 /* ── Sign-in button ── */
-.btn-signin {
+.btn-register-submit {
     width: 100%;
-    background-color: var(--charcoal);
-    color: #1e293b;
-    font-weight: 700;
-    padding: 1rem;
-    border: none;
-    border-radius: 0.75rem;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 1rem;
-    transition: background-color 0.15s, transform 0.1s;
-    font-family: 'Inter', sans-serif;
+    height: 3.5rem;
+    background-color: var(--accent-lime);
+    color: #0f172a;
+    font-weight: 900;
     font-size: 1rem;
+    border: none;
+    border-radius: 9999px;
+    box-shadow: 0 8px 20px rgba(200, 255, 74, 0.25);
+    transition: filter 0.15s, transform 0.1s;
+    font-family: 'Inter', sans-serif;
 }
 
-    .btn-signin:hover {
-        background-color: #1e293b;
-        color: #fff;
+
+
+    .btn-register-submit:hover {
+        filter: brightness(1.05);
+        color: #0f172a;
     }
 
-    .btn-signin:active {
+
+
+    .btn-register-submit:active {
         transform: scale(0.98);
     }
 

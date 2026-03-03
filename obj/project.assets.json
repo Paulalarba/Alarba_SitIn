@@ -5829,27 +5829,27 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 10.0.2",
-      "supabase >= 1.1.1"
+      "Supabase >= 1.1.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TT501\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\TT501\\ALARBAPA\\Alarba_SetIn\\ALARBA_SETIN_SYSTEM.csproj",
+      "projectUniqueName": "C:\\Users\\user\\CODE 3RD YEAR ALL IN\\MVC PROJECTS\\Alarba_SitIn\\ALARBA_SETIN_SYSTEM.csproj",
       "projectName": "ALARBA_SETIN_SYSTEM",
-      "projectPath": "Z:\\TT501\\ALARBAPA\\Alarba_SetIn\\ALARBA_SETIN_SYSTEM.csproj",
-      "packagesPath": "C:\\Users\\TT501\\.nuget\\packages\\",
-      "outputPath": "Z:\\TT501\\ALARBAPA\\Alarba_SetIn\\obj\\",
+      "projectPath": "C:\\Users\\user\\CODE 3RD YEAR ALL IN\\MVC PROJECTS\\Alarba_SitIn\\ALARBA_SETIN_SYSTEM.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\CODE 3RD YEAR ALL IN\\MVC PROJECTS\\Alarba_SitIn\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TT501\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5858,7 +5858,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5887,7 +5886,7 @@
             "target": "Package",
             "version": "[10.0.2, )"
           },
-          "supabase": {
+          "Supabase": {
             "target": "Package",
             "version": "[1.1.1, )"
           }
@@ -5911,7 +5910,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

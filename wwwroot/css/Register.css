@@ -14,44 +14,6 @@ body {
     min-height: 100vh;
 }
 
-/* ════════════════════════════════════════════
-             HEADER — matches homepage Bootstrap style
-          ════════════════════════════════════════════ */
-.site-header {
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(15, 35, 35, 0.05);
-    position: sticky;
-    top: 0;
-    z-index: 50;
-}
-
-.header-inner {
-    height: 5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Logo icon box — accent-dark bg, lime icon (homepage style) */
-.nav-logo-box {
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: var(--accent-dark);
-    border-radius: 0.75rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.nav-brand-name {
-    color: var(--accent-dark);
-    font-size: 1.25rem;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-}
 
 .nav-link-custom {
     color: rgba(15, 35, 35, 0.7);
